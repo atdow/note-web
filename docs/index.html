@@ -1,22 +1,41 @@
 <!--
  * @Author: your name
  * @Date: 2020-09-27 19:42:48
- * @LastEditTime: 2020-09-27 19:45:21
- * @LastEditors: your name
+ * @LastEditTime: 2020-09-27 20:01:11
+ * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
- * @FilePath: \docs\index.html
+ * @FilePath: \note-web\docs\index.html
 -->
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/buble.css">
 </head>
 
 <body>
-    <div id="app"></div>
+  <div id="app">
+    <nav>
+      <a href="/docsify/">En</a>
+      <a href="/docsify/guide">中文</a>
+    </nav>
+  </div>
+  <script>
+    window.$docsify = {
+      name: '',
+      repo: ''
+    }
+  </script>
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/docsify.min.js"></script>
+  <script src="//unpkg.com/docsify" data-repo="your/repo"></script>
+  <script src="//unpkg.com/docsify" data-max-level="6"></script>
 </body>
-<script src="//unpkg.com/docsify"></script>
 
 </html>
